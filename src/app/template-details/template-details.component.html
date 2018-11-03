@@ -1,0 +1,31 @@
+
+<div class="container-main">
+
+	<div class="title-main-container">
+		<span class="title-main">{{templateToShow.name}}</span>
+	</div>
+
+	<div class="window-main">
+
+		<div class="template-details-container">
+
+			<div class="view-template-wrapper" [innerHTML]="templateToShow.template"></div>
+
+			<div class="template-button-container">
+				<button class="btn-back" routerLink="/templates">Back</button>
+				<button class="btn-save-template">Save template</button>
+			</div>
+
+		</div>
+
+		<app-template-editor
+			*ngIf="isEditPanelVisible"
+			(editCancel)="isEditPanelVisible=$event"
+			(editedTemplate)="renderSavedStripe($event)"
+			[elemToEdit]="stripeToEdit">
+		</app-template-editor>
+
+	</div>
+
+</div>
+

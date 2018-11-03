@@ -1,0 +1,64 @@
+
+.container-main {
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 20px auto;
+	width: 50%;
+	background: #B9ECB6;
+	padding: 5px;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title-main-container {
+	height: 24px;
+	padding: 2px;
+	background: #27D778FF;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.window-main {
+	margin: 5px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.template-container {
+	border: 1px solid #007F0EFF;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding: 3px;
+}
+
+.template-title-container {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.template-title-value {
+	margin-left: 5px;
+	color: green;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.template-title-value:hover {
+	background: #27D778FF;
+	cursor: pointer;
+}
+
+.template-date-container {
+	margin-top: 2px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.template-date-value {
+	margin-left: 5px;
+	font-weight: normal;
+}

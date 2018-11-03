@@ -1,0 +1,11 @@
+.template-edit-panel {
+	border: 1px solid #007F0EFF;
+	border-radius: 5px;
+	background: #27D778FF;
+	padding: 5px;
+	/*width: 30%;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}

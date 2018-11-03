@@ -1,0 +1,27 @@
+
+
+<div class="container-main">
+
+	<div class="title-main-container">
+		<span class="title-main">Templates</span>
+	</div>
+
+	<div class="window-main">
+		
+		<div class="template-container" *ngFor="let template of templates">
+			
+			<div class="template-title-container">
+					<span class="template-title-property">Template:</span>
+					<span class="template-title-value" (click)="onSelect(template)">{{template.name}}</span>
+				</div>
+				
+				<div class="template-date-container">
+					<span class="template-date-property">Last time modified:</span>
+					<span class="template-date-value">{{template.modified}}</span>
+				</div>
+
+		</div>
+
+	</div>
+
+</div>
